@@ -1,0 +1,153 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    font-family: Bebas Neue;
+}
+
+header {
+    background-color: #54514a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+header img {
+    width: 350px;
+    height: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fb7c14;
+    font-size: 30px;
+    margin-right: 20px;
+    font-family: Bebas Neue;
+}
+
+button {
+    background-color: rgb(22, 22, 22);
+    border: 2px solid #fb7c14;
+    padding: 20px;
+    color: #fb7c14;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: Bebas Neue;
+    cursor: pointer;
+}
+
+.studioone {
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.studiotwo {
+    display: flex;
+    gap: 30px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.studioone img {
+    width: 800px;
+    height: 450px;
+}
+
+.studiotwo img {
+    width: 800px;
+    height: 450px;
+}
+
+.desc h2 {
+    font-size: 50px;
+}
+
+.desc p {
+    font-size: 30px;
+}
+
+.desc h3 {
+    font-size: 40px;
+}
+
+.desc button {
+    font-size: 35px;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+}
+
+.equipment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.equipment h1 {
+    rotate: -90deg;
+    font-size: 100px;
+    margin-right: 300px;
+}
+
+.equipment2 img {
+    width: 430px;
+}
+
+.equipment3 img {
+    width: 430px;
+}
+
+.studios-classes img {
+    width: 350px;
+}
+
+.studios-classes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.equipment-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.equipment2,
+.equipment3,
+.equipment4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.equipment2 img,
+.equipment3 img,
+.equipment4 img {
+    width: 100%;
+    height: auto;
+}
+
+
+.title {
+    margin: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 55px;
+    margin-top: 150px;
+}
+footer{background-color: #54514a; display: flex; justify-content: space-evenly; flex-direction: row; height: 175px;}
+.footer-class{display: flex; flex-direction: column; text-decoration: none; align-items: center;}
+.footer-class a{font-size: 22px;cursor: pointer;}
+.footer-class img{width: 35px; height: 35px;}
