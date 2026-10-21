@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #54514a;
+    background-color: #4e4f4a;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -224,3 +224,20 @@ footer {
 }
 
 
+.producers {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+.producers h2 {
+    font-size: 60px;
+}
+.prod-photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.prod-photo img {
+    width: 400px;
+    height: 450px;
+}
