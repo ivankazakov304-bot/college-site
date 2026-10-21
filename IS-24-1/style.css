@@ -40,7 +40,26 @@ button {
     font-family: Bebas Neue;
     cursor: pointer;
 }
+.marquee-content {
+  display: inline-block;
+  animation: fly-text 10s linear infinite;
+}
 
+.marquee-content span {
+  display: inline-block;
+  color: #fb7c14;
+  font-size: 32px;
+  letter-spacing: 2px; 
+}
+
+@keyframes fly-text {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
 .studioone {
     display: flex;
     gap: 30px;
@@ -196,3 +215,12 @@ footer {
     width: 350px;
     height: 350px;
 }
+.marquee-container {
+  overflow: hidden; 
+  white-space: nowrap; 
+  background: #161616; 
+  border-bottom: 2px solid #fb7c14; 
+  padding: 15px 0;
+}
+
+
