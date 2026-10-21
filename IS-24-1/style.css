@@ -147,7 +147,52 @@ button {
     font-size: 55px;
     margin-top: 150px;
 }
-footer{background-color: #54514a; display: flex; justify-content: space-evenly; flex-direction: row; height: 175px;}
-.footer-class{display: flex; flex-direction: column; text-decoration: none; align-items: center;}
-.footer-class a{font-size: 22px;cursor: pointer;}
-.footer-class img{width: 35px; height: 35px;}
+
+footer {
+    background-color: #54514a;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 175px;
+}
+
+.footer-class {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+
+.footer-class a {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.footer-class img {
+    width: 35px;
+    height: 35px;
+}
+
+.works h2 {
+    font-size: 54px;
+}
+
+.works p {
+    font-size: 24px;
+    margin-left: 150px;
+}
+
+.works {
+    display: flex;
+    flex-direction: row;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+}
+
+.album img {
+    width: 350px;
+    height: 350px;
+}
