@@ -7,6 +7,15 @@
 body {
     background-color: rgb(54, 54, 54);
     font-family: Bebas Neue;
+    background-image: url('images/background.jpg');
+  
+  background-repeat: repeat;
+  
+
+  animation: floatBackground 25s linear infinite;
+  
+  padding: 50px 20px; 
+  color: #fb7c14;
 }
 
 header {
@@ -155,12 +164,15 @@ button:hover::after {
     align-items: center;
     justify-content: center;
     margin-top: 200px;
+
 }
 
 .equipment h1 {
     rotate: -90deg;
-    font-size: 100px;
-    margin-right: 300px;
+    font-size: 200px;
+    margin-right: 250px;
+
+    
 }
 
 .equipment2 img {
@@ -175,6 +187,15 @@ button:hover::after {
     width: 350px;
 }
 
+
+@keyframes floatBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -400px ; 
+  }
+}
 .studios-classes {
     display: flex;
     flex-direction: column;
@@ -221,6 +242,7 @@ footer {
     justify-content: space-evenly;
     flex-direction: row;
     height: 175px;
+    color: black;
 }
 
 .footer-class {
@@ -252,6 +274,8 @@ footer {
 .works {
     display: flex;
     flex-direction: row;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .album {
@@ -289,3 +313,4 @@ footer {
     width: 400px;
     height: 450px;
 }
+.underfooter{display: flex; justify-content: center; font-size: 60px;}
